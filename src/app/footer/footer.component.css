@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+ line-height: 1.5;
+font-family:'Poppins',sans-serif; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    /* border-bottom: 3px solid yellow; */
+    width: 250px;
+    color: aliceblue;
+    /* border-bottom-left-radius: 10px;  */
+    
+}
+.container{
+   
+     margin: auto;
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+p{
+    color:rgba(200, 205, 205, 0.848);
+    font-size:small;
+}
+.footer{
+    background-color: #060606d8;
+    padding: 70px 0;
+    
+}
+.footer-col h3{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position:relative;
+    width: 25%;
+     padding: 0 15px; 
+}
+/* .footer-col h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#e91e62;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+} */
+
+.test{
+text-decoration: none;
+}
+.social-link{
+    color: aliceblue;
+}
+.design{
+    letter-spacing: 1px;
+}
+.box{
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    
+}
+.hori{
+    color: yellow;
+    width: 60px;
+    height: 3px;
+}
+.font{
+color: aliceblue;
+
+}
+.font a{
+    text-decoration: none;
+    color: #ffffff83;
+}

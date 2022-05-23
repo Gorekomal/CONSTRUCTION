@@ -1,0 +1,108 @@
+
+<section class="topbar1">
+  <div class="container">
+
+    <div class="icons">
+      <div class="row">
+       <div class="col-3">
+        <i class="fa-brands fa-twitter btn px-1"></i>
+        <i class="fa-brands fa-facebook btn px-1"></i>
+        <i class="fa-brands fa-google-plus btn px-1"></i>
+        <i class="fa-brands fa-pintrest btn px-1"></i>
+        <i class="fa-brands fa-dribble btn px-1"></i>
+        </div>
+      <div class="col-3">
+        
+      </div>
+        <div class="col-6">
+
+          <i class="fa-solid fa-phone btn1"></i>
+          <span>{{phone}}</span>
+          <i class="fa-solid fa-envelope btn px-1"></i>
+          <span>{{contact}}</span>
+          <i class="fa-solid fa-clock btn px-1"></i>
+          <span>{{date|date}}</span>
+        </div>
+</div>
+    </div>
+  </div>
+  </section>
+
+
+  <section class="navbar1">
+
+  <div class="container">
+
+    <nav class=" navbar navbar-expand-lg navbar-dark " >
+ 
+    
+    <a class="navbar-brand" href="#"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> 
+     </button> 
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav">
+        
+        <p *ngFor="let nm of empData">
+          <img src="{{nm.img}}" class="img1" width="150" alt="">
+          </p>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle me-5"  href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" routerLink="home/aboutus">About Us</a></li>
+            <li><a class="dropdown-item" routerLink="home/futurework">Future Work</a></li>
+            <li><a class="dropdown-item" routerLink="home/offers">Offers</a></li>
+          
+      </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle me-5" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Portfolio
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+          <li><a class="dropdown-item" routerLink="portfolio/commercial">Commercial</a></li>
+          <li><a class="dropdown-item" routerLink="Portfolio/education">Education</a></li>
+          <li><a class="dropdown-item" routerLink="portfolio/industrial">Industrial</a></li>
+          <li><a class="dropdown-item" routerLink="portfolio/residential">Residential</a></li>
+        
+    </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle me-5" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        services
+      </a>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+        <li><a class="dropdown-item" routerLink="services/architectrualdesign">Architectrual Design</a></li>
+        <li><a class="dropdown-item" routerLink="services/constructionconsultant">Construction Consultant</a></li>        
+        <li><a class="dropdown-item" routerLink="services/greenbuilding">Green Building</a></li>
+        <li><a class="dropdown-item" routerLink="services/houserenovation">House Renovation</a></li>  
+        <li><a class="dropdown-item" routerLink="services/reconstructionservice">Reconstruction Service</a></li>    
+  </ul>
+  </li> <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle me-5" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      cities
+    </a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+      <li><a class="dropdown-item" routerLink="cities/pune">Pune</a></li>
+      <li><a class="dropdown-item" routerLink="cities/mumbai">Mumbai</a></li>
+
+    </ul>
+</li>
+ </div>
+    </div>
+    
+ 
+</nav> 
+</div>
+</section>
+
+  
+
+
+
+
+         
+  
+   

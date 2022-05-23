@@ -1,0 +1,23 @@
+.image{
+
+    background-image:url("https://th.bing.com/th/id/R.e993ff740bd13c0a25f684f46453cabc?rik=tcgGcABwzwKqrA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-WNoWiG2xFWU%2fU8O4eMzeyzI%2fAAAAAAAACgo%2f5JGTjL1N4tk%2fs1600%2fluxury_house-wallpaper-1920x1080.jpg&ehk=tzHQ9o6h6x3qjItgavq7ahVPXn4xX4xuwx2wJpdqpPk%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* .builder{
+    text-align:center;
+    font-style: italic;
+    color: white;
+} */
+
+.accordion-item-1{
+    margin-bottom: 55px;
+    margin-top: 33px;
+    border: none;
+    margin-left: 80px;
+margin-right: 80px;
+box-shadow: gray 1px -1px 17px -13px ;   
+}
